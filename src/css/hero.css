@@ -32,8 +32,9 @@
 }
 
 .hero-gradient {
-  font-style: italic;
-  color: #a1b5ba;
+  background-image: var(--accent-color);
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .hero-subtitle {
