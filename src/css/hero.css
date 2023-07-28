@@ -4,7 +4,6 @@
 
 @media screen and (min-width: 768px) {
   .page-hero {
-<<<<<<< Updated upstream
     padding-top: 62px;
   }
 }
@@ -13,17 +12,10 @@
   .hero-container {
     display: flex;
     align-items: center;
-=======
-    padding-top: 64px;
->>>>>>> Stashed changes
   }
 }
 
 .hero-title {
-<<<<<<< Updated upstream
-=======
-  color: #f6f5ef;
->>>>>>> Stashed changes
   font-size: 36px;
   font-weight: 500;
   line-height: 1.1;
@@ -40,20 +32,12 @@
 }
 
 .hero-gradient {
-<<<<<<< Updated upstream
   background-image: var(--accent-color);
-  -webkit-background-clip: text;
   color: transparent;
+  -webkit-background-clip: text;
 }
 
 .hero-subtitle {
-=======
-  font-style: italic;
-  color: var(--accent-color);
-}
-.hero-subtitle {
-  color: #f6f5ef;
->>>>>>> Stashed changes
   font-size: 14px;
   font-weight: 400;
   line-height: 1.4;
@@ -86,68 +70,29 @@
   line-height: 1.1;
   letter-spacing: -0.63px;
   border-radius: 60px;
-<<<<<<< Updated upstream
   border: none;
   padding: 14px 28px;
   color: #f6f5ef;
-  margin-bottom: 1.89px;
-}
-
-@media screen and (min-width: 768px) {
-  .hero-start-btn,
-  .hero-explore-btn {
-    margin-bottom: 10.64px;
-  }
-=======
-  padding: 14px 28px;
-  color: #f6f5ef;
-  border: none;
->>>>>>> Stashed changes
 }
 
 .hero-start-btn {
   background: var(--button-lightgreen-color);
 }
-<<<<<<< Updated upstream
+
 .hero-explore-btn {
   background: var(--main-background-color);
   border: 1px solid var(--white, #f6f5ef);
-=======
-
-.hero-explore-btn {
-  border: 1px solid #f6f5ef;
-  padding: 14px 28px;
-  background: var(--main-background-color);
-}
-
-@media screen and (min-width: 768px) {
-  .hero-start-btn {
-    font-size: 18px;
-    letter-spacing: -0.81px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .hero-explore-btn {
-    font-size: 18px;
-    letter-spacing: -0.81px;
-  }
->>>>>>> Stashed changes
 }
 
 .hero-start-btn:hover,
 .hero-start-btn:focus {
   background: var(--button-lightgreen-hover);
 }
+
 .hero-explore-btn:hover,
 .hero-explore-btn:focus {
   background: var(--secondary-background-color);
-<<<<<<< Updated upstream
 }
 
-=======
-  color: #93abae;
-}
->>>>>>> Stashed changes
 .hero-pictures-wrapper {
 }
