@@ -1,4 +1,8 @@
 .footer {
+  min-width: 300px;
+  margin: 0 auto;
+  padding-left: 0px;
+  padding-right: 0px;
   padding-top: 40px;
   padding-bottom: 14px;
   border-top: 1px solid rgba(246, 245, 239, 0.2);
@@ -90,7 +94,7 @@
 }
 
 @media only screen and (min-width: 375px) {
-  .container {
+  .footer {
     min-width: 335px;
   }
   .ellipse-footer7268 {
@@ -109,7 +113,7 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .container {
+  .footer {
     min-width: 704px;
   }
   .footer-menu {
@@ -159,7 +163,7 @@
   }
 }
 @media only screen and (min-width: 1280px) {
-  .container {
+  .footer {
     min-width: 1216px;
   }
   .footer-text-box {
