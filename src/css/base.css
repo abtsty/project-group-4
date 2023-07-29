@@ -46,6 +46,10 @@
   --accent-color: linear-gradient(107deg, #bec7c2 0%, #a1b5ba 100%);
   --button-lightgreen-color: rgba(147, 171, 174, 1);
   --button-lightgreen-hover: rgba(136, 179, 185, 1);
+
+  --button-light-color: #f6f6ef;
+  --text-dark-color: #11131f;
+
   --linear-green: #bec7c2;
   --background-grad: var(
     --linear-green,
