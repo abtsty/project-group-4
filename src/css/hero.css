@@ -94,5 +94,106 @@
   background: var(--secondary-background-color);
 }
 
-.hero-pictures-wrapper {
+/* =======hero-images======= */
+
+.hero-pictures-box {
+  position: relative;
+  width: 100%;
+  background: url(/img/hero/mobile-shield.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-price {
+  color: #11131f;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: -2.16px;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-price {
+    font-size: 60px;
+    letter-spacing: -2.7px;
+  }
+}
+
+.hero-booking {
+  color: #11131f;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: -0.63px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-booking {
+    font-size: 18px;
+    letter-spacing: -0.81px;
+    line-height: 1.1;
+  }
+}
+
+.hero-client-title {
+  color: #11131f;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+
+.container-hero {
+  background: url(nature/jpg) center/cover no-repeat;
+  height: 100vh;
+}
+
+.container-hero:before {
+  content: '';
+  position: absolute;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: screen;
+}
+
+.clients-img {
+  width: 48px;
+  height: 48px;
+  border: 2px solid #93abae;
+  border-radius: 48px;
+}
+
+.hero-clients-box {
+  width: 135px;
+  /* position: absolute; */
+}
+
+.hero-clients-list {
+  display: flex;
+  margin-bottom: 13px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-clients-list {
+    margin-bottom: 11px;
+  }
+}
+
+.hero-ceo {
+  position: absolute;
+}
+
+.hero-yaht {
+  position: absolute;
+}
+
+.hero-promotion {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
