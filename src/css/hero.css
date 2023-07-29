@@ -1,0 +1,98 @@
+.page-hero {
+  padding-top: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .page-hero {
+    padding-top: 62px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hero-container {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.hero-title {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -1.62px;
+  margin-bottom: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-title {
+    font-size: 60px;
+    letter-spacing: -2.7px;
+    margin-bottom: 16px;
+  }
+}
+
+.hero-gradient {
+  background-image: var(--accent-color);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+.hero-subtitle {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: -0.28px;
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-subtitle {
+    font-size: 16px;
+    letter-spacing: -0.32px;
+    margin-bottom: 32px;
+  }
+}
+
+.hero-btn-wrapper {
+  gap: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-btn-wrapper {
+    gap: 11px;
+  }
+}
+
+.hero-start-btn,
+.hero-explore-btn {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.63px;
+  border-radius: 60px;
+  border: none;
+  padding: 14px 28px;
+  color: #f6f5ef;
+}
+
+.hero-start-btn {
+  background: var(--button-lightgreen-color);
+}
+
+.hero-explore-btn {
+  background: var(--main-background-color);
+  border: 1px solid var(--white, #f6f5ef);
+}
+
+.hero-start-btn:hover,
+.hero-start-btn:focus {
+  background: var(--button-lightgreen-hover);
+}
+
+.hero-explore-btn:hover,
+.hero-explore-btn:focus {
+  background: var(--secondary-background-color);
+}
+
+.hero-pictures-wrapper {
+}
