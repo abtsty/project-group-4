@@ -12,10 +12,6 @@ background-color: #11131F;
 }
 
 
-transform: rotate(42.333deg);
-stroke-width: 1.458px;
-stroke: #F6F5EF;
-opacity: 0.4736842215061188;
 
 
 .yachts-header {
@@ -271,11 +267,6 @@ letter-spacing: 0.42px;
     }
   } 
 
-  @media (min-width: 1280px) {
-    .slider-arrows {
-
-    }
-  }
 
 .arrow-button {
   display: flex;
