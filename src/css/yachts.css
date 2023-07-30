@@ -9,29 +9,34 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #11131F;
+
   }
   
-  
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    }
   
   .yachts-header {
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      margin: 0 auto;
+      margin-bottom: 80px;
+      max-width: 335px;
+      gap: 40px;
+      padding-left: 20px;
+      padding-right: 20px;
   }
-  
-  @media (min-width: 375px) and (max-width: 767px) {
-      .yachts-header {
-          max-width: 335px;
-          gap: 40px;
-      }
-    }
   
   @media (min-width: 768px) and (max-width: 1279px) {
       .yachts-header {
           max-width: 640px;
           gap: 64px;
+          margin-bottom: 100px;
+          padding-left: 64px;
+          padding-right: 64px;
       }
     }
   
@@ -40,9 +45,26 @@
           display: inline-flex;
           max-width: 882px;
           gap: 64px;
+          margin-bottom: 164px;
+          padding-left: 199px;
+          padding-right: 199px;
       }
     }
   
+.slider {
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media (min-width: 768px) {
+  .slider {
+      padding-left: 32px;
+      padding-right: 32px;
+
+  }
+}
+
   .text-container {
     display: flex;
     min-width: 310px;
@@ -127,33 +149,22 @@
       display: flex;
       flex-wrap: wrap;
       flex-direction: row;
-      margin-left: 20px;
+      gap: 16px;
   }
-  
-  @media (min-width: 768px) and (max-width: 1279px) {
-      .yachts-list {
-          margin-left: 32px;
-      }
-    }
-  
-    @media (min-width: 1280px) {
-      .yachts-text {
-          margin-left: 93px;
-      }
-    }
+
   
   .yacht {
       background-color: #1F212D; 
       border-radius: 24px;
       align-items: center;
+      padding-left: 16px;
+      padding-bottom: 32px;
+      padding-right: 16px;
+      padding-top: 16px;
+      width: 335px;
+      height: 469px;
   }
   
-  @media (min-width: 375px) and (max-width: 767px) {
-      .yacht {
-          min-width: 335px;
-          height: 469px;
-      }
-    }
   
   @media (min-width: 768px)  {
       .yacht {
@@ -165,20 +176,14 @@
   .picture {
     display: flex;
     justify-content: center;
-    margin: 18px 0;
   }
   
-  @media (min-width: 768px)  {
-    .picture {
-      margin-top: 16px;
-    }
-  }
+  
   
   .name-type {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin: 32px 32px;
+    align-items: center; 
   }
   
   
@@ -191,6 +196,17 @@
     line-height: 120%;
     letter-spacing: -0.72px;
     text-transform: uppercase;
+    padding-left: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  @media (min-width: 768px)  {
+    .name {
+      padding-left: 32px;
+      padding-top: 32px;
+      padding-bottom: 32px;
+    }
   }
   
   .yacht-type {
@@ -203,36 +219,50 @@
     letter-spacing: 0.36px;
     text-transform: uppercase;
     opacity: 0.5;
-  }
-  
-  .charact {
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 32px;
-    margin-left: 24px;
-    margin-bottom: 24px;
+    padding-right: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
   }
   
   @media (min-width: 768px)  {
-    .yacht {
-      margin-left: 32px;
-      margin-bottom: 32px;
-      flex-direction: row;
+    .yacht-type {
+      padding-left: 32px;
+      padding-top: 32px;
+      padding-bottom: 32px;
     }
   }
+
+
+  .charact {
+    display: flex;
+    align-items: space-between;
+    flex-direction: row;
+    gap: 32px;
+  }
   
+
+
   .charact1 {
     display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  padding-left: 24px;
+  padding-bottom: 24px;
   gap: 6px;
   }
   
+  @media (min-width: 768px)  {
+    .charact1 {
+      padding-left: 32px;
+      padding-bottom: 32px;
+    }
+  }
+
+
   .charact2 {
     display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
+  padding-right: 32px;
+  padding-bottom: 32px;
   gap: 6px;
   }
   
@@ -248,15 +278,21 @@
   
   .slider-arrows {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     gap: 14px;
-    margin: 0, auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 24px;
     }
   
     @media (min-width: 768px) and (max-width: 1279px) {
       .slider-arrows {
         display: flex;
         gap: 16px;
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-top: 32px;
       }
     } 
   
