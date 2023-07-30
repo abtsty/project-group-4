@@ -4,11 +4,26 @@
   |============================
 */
 
+.yachts {
+background-image: url(../img/yachts/background-waves.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-color: #11131F;
+}
+
+
+transform: rotate(42.333deg);
+stroke-width: 1.458px;
+stroke: #F6F5EF;
+opacity: 0.4736842215061188;
+
+
 .yachts-header {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 @media (min-width: 375px) and (max-width: 767px) {
@@ -33,6 +48,25 @@
         gap: 64px;
     }
   }
+
+.text-container {
+  display: flex;
+  min-width: 310px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .text-container {
+      min-width: 641px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .text-container {
+      min-width: 882px;
+  }
+}
+
 
 .yachts-text {
     color: #F6F5EF;
@@ -60,7 +94,7 @@
 
 .yacht-button {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 10px;
     min-width: 153px;
     height: 48px;
@@ -74,8 +108,29 @@
     background-color: #11131F;
     border-radius: 60px; 
     border: 1px solid var(#F6F5EF);
-    margin: 0 auto;
+    margin-right: auto;
 }
+
+
+.button-text {
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+  letter-spacing: -0.63px;
+  color: #F6F5EF;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .button-text {
+    letter-spacing: -0.81px;
+    font-size: 18px;
+  }
+}
+
+
 
 .yachts-list {
     display: flex;
@@ -99,7 +154,7 @@
 .yacht {
     background-color: #1F212D; 
     border-radius: 24px;
-    flex-shrink: 0;
+    align-items: center;
 }
 
 @media (min-width: 375px) and (max-width: 767px) {
@@ -117,17 +172,26 @@
     }
   }
 
-.name-type {
-  display: inline-flex;
+.picture {
+  display: flex;
   justify-content: center;
-  align-items: center;
+  margin: 18px 0;
 }
 
-.liss {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+@media (min-width: 768px)  {
+  .picture {
+    margin-top: 16px;
+  }
 }
+
+.name-type {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 32px 32px;
+}
+
+
 
 .name {
   color: #F6F5EF;
@@ -194,8 +258,8 @@ letter-spacing: 0.42px;
 }
 
 .slider-arrows {
-  display: inline-flex;
-  align-items: flex-start;
+  display: flex;
+  justify-content: center;
   gap: 14px;
   margin: 0, auto;
   }
