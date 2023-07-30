@@ -114,8 +114,10 @@
   letter-spacing: -0.63px;
   background-color: #11131f;
   border-radius: 60px;
-  border: 1px solid var(#f6f5ef);
+
+  border: #f6f5ef 1px solid;
   margin-right: auto;
+  justify-content: center;
 }
 
 .button-text {
@@ -138,7 +140,7 @@
 
 .yachts-list {
   display: flex;
-  flex-wrap: wrap;
+
   flex-direction: row;
   gap: 16px;
 }
@@ -220,7 +222,9 @@
 
 .charact {
   display: flex;
-  align-items: space-between;
+
+  justify-content: space-between;
+
   flex-direction: row;
   gap: 32px;
 }
@@ -245,6 +249,9 @@
   flex-direction: column;
   padding-bottom: 32px;
   gap: 6px;
+
+  margin-right: auto;
+
 }
 
 .pharagraf {
@@ -283,18 +290,10 @@
   align-items: flex-start;
   gap: 10px;
   border-radius: 60px;
-  border: 1px solid var(#f6f5ef);
+  border: #f6f5ef 1px solid;
 }
 
-.swiper {
-  width: 320px;
-  height: 600px;
-  background-color: transparent;
-  margin-bottom: 17px;
-}
-
-.swiper-slide {
-}
+/* .swiper {
 
 .swiper-button-next,
 .swiper-button-prev {
@@ -303,11 +302,11 @@
   border: #f6f5ef 1px solid;
   border-radius: 60px;
   background-color: transparent;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+/* }
 .swiper-button-next:after,
 .swiper-button-prev:after {
   display: none;
@@ -319,18 +318,19 @@
   margin-left: 95px;
   margin-right: 95px;
 }
-
 .swiper-backface-hidden .swiper-slide {
-  background-color: rgb(231, 130, 130);
-}
-
+  /* background-color: rgb(231, 130, 130); */
+/* }
 .swiper-button-next svg,
 .swiper-button-prev svg {
   width: 18px;
   height: 8px;
-}
+} */
 
-/**
+
+  
+  /**
+
     |============================
     | End of Yachts section
     |============================
