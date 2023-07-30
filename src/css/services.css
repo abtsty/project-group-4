@@ -6,12 +6,6 @@
  padding-top: 80px;
 }
 
-.services-list {
-display: flex;
-flex-direction: column;
-gap: 24px;
-}
-
 .services-item {
  position: relative;
 }
@@ -40,6 +34,13 @@ gap: 24px;
 }
 
 @media only screen and (max-width: 767px) {
+
+.services-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
     .services-img {
         width: 335px;
         height: 335px;
@@ -51,7 +52,7 @@ gap: 24px;
     }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
 .services-list {
     display: flex;
     flex-direction: column;
@@ -81,5 +82,45 @@ gap: 24px;
     bottom: 32px;
     left: 32px;
   }
+}
 
+@media only screen and (min-width: 1280px) {
+
+  .services-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 64px;
+    align-items: baseline;
+    }
+  
+
+    .services-img {
+
+    }
+
+    .diving {
+      width: 712px;
+      height: 632px;
+    }
+  
+    .fishing {
+      width: 440px;
+      height: 428px;   
+    }
+  
+    .sunbathing {
+      width: 436px;
+      height: 352px;
+      margin-left: 340px;
+      
+    }
+  
+    .services-btn {
+      bottom: 32px;
+      left: 32px;
+    }
+
+        .services-btn { 
+
+        }
 }
