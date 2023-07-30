@@ -6,20 +6,11 @@
  padding-top: 80px;
 }
 
-.services-list {
-display: flex;
-flex-direction: column;
-gap: 24px;
-}
-
 .services-item {
  position: relative;
 }
 
-
 .services-img {
- width: 335px;
- height: 335px;
  top: 164px;
  left: 32px;
  border-radius: 40px;
@@ -32,12 +23,104 @@ gap: 24px;
  align-items: flex-start;
  gap: 10px;
  border-radius: 60px;
- background: #F6F5EF;
+ background: var(--button-light-color);
  font-size: 14px;
  line-height: 110%;
  letter-spacing: -0.63px;
  font-weight: 700;
- bottom: 24px;
- left: 24px;
  position: absolute;
+ border: none;
+ color: var(--text-dark-color);
+}
+
+@media only screen and (max-width: 767px) {
+
+.services-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+    .services-img {
+        width: 335px;
+        height: 335px;
+    }
+
+    .services-btn {
+        bottom: 24px;
+        left: 24px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+.services-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .diving {
+    width: 704px;
+    height: 632px;
+  }
+
+  .fishing {
+    width: 400px;
+    height: 389px;
+    margin-left: auto;
+  }
+
+  .sunbathing {
+    width: 380px;
+    height: 352px;
+    margin-right: auto;
+    margin-left: 32px;
+  }
+
+  .services-btn {
+    bottom: 32px;
+    left: 32px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+
+  .services-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 64px;
+    align-items: baseline;
+    }
+  
+
+    .services-img {
+
+    }
+
+    .diving {
+      width: 712px;
+      height: 632px;
+    }
+  
+    .fishing {
+      width: 440px;
+      height: 428px;   
+    }
+  
+    .sunbathing {
+      width: 436px;
+      height: 352px;
+      margin-left: 340px;
+      
+    }
+  
+    .services-btn {
+      bottom: 32px;
+      left: 32px;
+    }
+
+        .services-btn { 
+
+        }
 }
