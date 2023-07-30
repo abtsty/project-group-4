@@ -92,11 +92,6 @@
     gap: 64px;
     align-items: baseline;
     }
-  
-
-    .services-img {
-
-    }
 
     .diving {
       width: 712px;
@@ -119,8 +114,4 @@
       bottom: 32px;
       left: 32px;
     }
-
-        .services-btn { 
-
-        }
 }
