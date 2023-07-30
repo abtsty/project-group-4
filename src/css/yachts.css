@@ -292,7 +292,8 @@
   background-color: transparent;
   margin-bottom: 17px;
 }
-
+.swiper-slide {
+}
 .swiper-button-next,
 .swiper-button-prev {
   height: 36px;
@@ -300,11 +301,10 @@
   border: #f6f5ef 1px solid;
   border-radius: 60px;
   background-color: transparent;
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
-
 .swiper-button-next:after,
 .swiper-button-prev:after {
   display: none;
@@ -316,16 +316,15 @@
   margin-left: 95px;
   margin-right: 95px;
 }
-
 .swiper-backface-hidden .swiper-slide {
-  background-color: rgb(231, 130, 130);
+  /* background-color: rgb(231, 130, 130); */
 }
-
 .swiper-button-next svg,
 .swiper-button-prev svg {
   width: 18px;
   height: 8px;
 }
+
 
   
   /**
