@@ -5,12 +5,12 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%; */
 
-  --main-background-color: rgba(17, 19, 31, 1);
+  /* --main-background-color: rgba(17, 19, 31, 1);
   --secondary-background-color: rgba(31, 33, 45, 1);
   --main-font-color: rgba(246, 245, 239, 1);
   --accent-color: #bec7c2;
   --button-lightgreen-color: rgba(147, 171, 174, 1);
-  --button-lightgreen-hover: rgba(136, 179, 185, 1);
+  --button-lightgreen-hover: rgba(136, 179, 185, 1); */
 }
 
 /*------------About-------------*/
@@ -26,7 +26,7 @@
 }
 @media only screen and (min-width: 768px) {
   .container {
-    max-width: 763px;
+    max-width: 768px;
   }
   .container-text {
     display: flex;
@@ -68,7 +68,7 @@
 
 @media only screen and (min-width: 1280px) {
   .container {
-    max-width: 1248px;
+    max-width: 1280px;
   }
   .container-text {
     flex-direction: row;
@@ -132,7 +132,7 @@
   width: calc((100% - 50px) / 2);
 }
 .text-decorative {
-  color: var(--accent-color);
+  color: #bec7c2;
 
   font-weight: 500;
   font-style: italic;
