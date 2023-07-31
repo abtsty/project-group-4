@@ -62,13 +62,6 @@
     bottom: -156px;
     right: inherit;
   }
-
-  /*
-  .img-2 {
-    width: 335px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }*/
 }
 
 /* Desktop base styles */
@@ -131,12 +124,7 @@
   width: 514px;
   height: 145px;
 }
-.item-list {
-  display: flex;
-  gap: 14px;
-  max-width: 335px;
-  margin: auto auto 40px;
-}
+
 .item-text {
   display: block;
   align-items: flex-start;
@@ -157,6 +145,12 @@
   font-style: normal;
   max-width: 100%;
   color: var(--white-color);
+}
+.item-list {
+  display: flex;
+  gap: 14px;
+  max-width: 335px;
+  margin: auto auto 40px;
 }
 /*----------Section-IMG---------*/
 .img-2 {
