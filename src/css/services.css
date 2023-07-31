@@ -1,59 +1,79 @@
 .services-section {
- padding-top: 164px;
+  padding-top: 164px;
 }
 
 .services-container {
- padding-top: 80px;
+  padding-top: 80px;
+  position: relative;
 }
 
 .services-item {
- position: relative;
+  position: relative;
 }
 
 .services-img {
- top: 164px;
- left: 32px;
- border-radius: 40px;
- background: linear-gradient(0deg, rgba(17, 19, 31, 0.20) 0%, rgba(17, 19, 31, 0.20) 100%), no-repeat;
+  top: 164px;
+  left: 32px;
+  border-radius: 40px;
+  background: linear-gradient(0deg, rgba(17, 19, 31, 0.20) 0%, rgba(17, 19, 31, 0.20) 100%), no-repeat;
 }
 
 .services-btn {
- display: inline-flex;
- padding: 14px 28px;
- align-items: flex-start;
- gap: 10px;
- border-radius: 60px;
- background: var(--button-light-color);
- font-size: 14px;
- line-height: 110%;
- letter-spacing: -0.63px;
- font-weight: 700;
- position: absolute;
- border: none;
- color: var(--text-dark-color);
+  display: inline-flex;
+  padding: 14px 28px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 60px;
+  background: var(--button-light-color);
+  font-size: 14px;
+  line-height: 110%;
+  letter-spacing: -0.63px;
+  font-weight: 700;
+  position: absolute;
+  border: none;
+  color: var(--text-dark-color);
 }
 
-@media only screen and (max-width: 767px) {
+.ellipse-section-rent-7271 {
+  position: absolute;
+  transform: rotate(-45deg);
+  flex-shrink: 0;
+  opacity: 0.6;
+  background: #91afba;
+  filter: blur(100px);
+  z-index: 0;
+}
 
-.services-list {
+@media only screen and (min-width: 320px) and (max-width: 767.98px) {
+
+  .services-list {
     display: flex;
     flex-direction: column;
     gap: 24px;
   }
 
-    .services-img {
-        width: 335px;
-        height: 335px;
-    }
+  .services-img {
+    width: 335px;
+    height: 335px;
+  }
 
-    .services-btn {
-        bottom: 24px;
-        left: 24px;
-    }
+  .services-btn {
+    bottom: 24px;
+    left: 24px;
+  }
+
+  .ellipse-section-rent-7271 {
+    width: 323px;
+    height: 323px;
+    top: 386px;
+    left: -219px;
+    border-radius: 323px;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1279px) {
-.services-list {
+
+  .services-list {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -82,6 +102,14 @@
     bottom: 32px;
     left: 32px;
   }
+
+  .ellipse-section-rent-7271 {
+    width: 414px;
+    height: 414px;
+    top: 645px;
+    left: -219px;
+    border-radius: 414px;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
@@ -91,27 +119,35 @@
     flex-wrap: wrap;
     gap: 64px;
     align-items: baseline;
-    }
+  }
 
-    .diving {
-      width: 712px;
-      height: 632px;
-    }
-  
-    .fishing {
-      width: 440px;
-      height: 428px;   
-    }
-  
-    .sunbathing {
-      width: 436px;
-      height: 352px;
-      margin-left: 340px;
-      
-    }
-  
-    .services-btn {
-      bottom: 32px;
-      left: 32px;
-    }
+  .diving {
+    width: 712px;
+    height: 632px;
+  }
+
+  .fishing {
+    width: 440px;
+    height: 428px;
+  }
+
+  .sunbathing {
+    width: 436px;
+    height: 352px;
+    margin-left: 340px;
+
+  }
+
+  .services-btn {
+    bottom: 32px;
+    left: 32px;
+  }
+
+  .ellipse-section-rent-7271 {
+    width: 414px;
+    height: 414px;
+    top: 311px;
+    left: -213px;
+    border-radius: 414px;
+  }
 }
