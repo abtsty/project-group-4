@@ -136,6 +136,7 @@
   .hero-pictures-box {
     background: url(/img/hero/mobile-shield.png);
     max-width: 280px;
+    background-size: 100% 427px;
   }
 }
 
@@ -331,8 +332,10 @@
 .ellipse-hero {
   position: absolute;
 
-  bottom: 112px;
-  right: 183px;
+  /* bottom: 112px;
+  right: 183px; */
+  top: 0;
+  right: 0;
   z-index: 0;
 
   width: 279px;
