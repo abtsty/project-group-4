@@ -12,15 +12,8 @@
   }
 }
 
-.container {
-}
-
 .reviews-box {
   margin-bottom: 40px;
-}
-@media only screen and (min-width: 768px) {
-  .reviews-box {
-  }
 }
 
 @media only screen and (min-width: 1280px) {
@@ -41,6 +34,7 @@
   color: var(--main-font-color);
   margin-bottom: 24px;
 }
+
 @media only screen and (min-width: 768px) {
   .reviews-title {
     width: 497px;
@@ -50,16 +44,14 @@
     letter-spacing: -1.44px;
   }
 }
-@media only screen and (min-width: 1280px) {
-  .reviews-title {
-  }
-}
+
 .reviews-page {
   max-width: 335px;
   font-size: 14px;
   line-height: 140%;
   letter-spacing: -0.28px;
 }
+
 @media only screen and (min-width: 768px) {
   .reviews-page {
     margin-top: 32px;
@@ -70,6 +62,7 @@
     letter-spacing: -0.32px;
   }
 }
+
 @media only screen and (min-width: 1280px) {
   .reviews-page {
     margin-top: 0;
@@ -83,8 +76,10 @@
   -webkit-background-clip: text;
   color: transparent;
 }
+
 .reviews-block {
 }
+
 @media only screen and (min-width: 768px) {
   .reviews-block {
     display: flex;
@@ -93,6 +88,7 @@
     gap: 16px;
   }
 }
+
 @media only screen and (min-width: 1280px) {
   .reviews-block {
     gap: 32px;
@@ -100,16 +96,16 @@
 }
 
 .reviews-item {
-  max-width: 335px;
+  min-width: 335px;
   height: 208px;
   padding: 24px;
   margin-bottom: 14px;
   border-radius: 24px;
   background-color: var(--secondary-background-color);
 }
+
 @media only screen and (min-width: 768px) {
   .reviews-item {
-    /* flex-basis: calc((100% - 16px) / 2); */
     margin-bottom: 32px;
     width: 344px;
     height: 266px;
@@ -118,9 +114,8 @@
 
 @media only screen and (min-width: 1280px) {
   .reviews-item {
-    /* flex-basis: calc((100% - 64px) / 3); */
     padding: 32px;
-    margin-bottom: 64px;
+    margin-bottom: 164px;
     width: 384px;
     height: 282px;
   }
@@ -128,11 +123,13 @@
 
 .john-item {
 }
+
 .reviews-img {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 18px;
 }
+
 @media only screen and (max-width: 767.98px) {
   .reviews-img {
     width: 48px;
@@ -169,6 +166,7 @@
   color: var(--main-font-color);
   width: 100%;
 }
+
 @media only screen and (max-width: 767.98px) {
   .victoria-item {
     display: none;
@@ -177,6 +175,26 @@
 
 @media only screen and (max-width: 1279.98px) {
   .igor-item {
+    display: none;
+  }
+}
+/* buller*/
+.buller-item {
+  padding-left: 138px;
+  padding-right: 184px;
+  margin-bottom: 80px;
+}
+
+@media only screen and (min-width: 768px) {
+  .buller-item {
+    padding-left: 322px;
+    padding-right: 369px;
+    margin-bottom: 100px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .buller-item {
     display: none;
   }
 }
