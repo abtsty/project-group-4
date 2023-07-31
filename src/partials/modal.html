@@ -1,0 +1,55 @@
+<!-- Modal window -->
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <button class="modal-btn" type="button" data-modal-close>
+      <svg class="modal-icon" width="24" height="24">
+        <use href="./images/symbol-defs.svg#icon-x"></use>
+      </svg>
+    </button>
+    <div class="modal-yaht">
+      <picture>
+        <source
+          srcset="
+            ./images/rent-pop-up-img@1x.png,
+            ./images/rent-pop-up-img@2x.png
+          "
+          media="(min-width: 320px)"
+        />
+        <source
+          srcset="
+            ./images/rent-pop-up-img@1x.png,
+            ./images/rent-pop-up-img@2x.png
+          "
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="
+            ./images/rent-pop-up-img@1x.png,
+            ./images/rent-pop-up-img@2x.png
+          "
+          media="(min-width: 1200px)"
+        />
+        <img
+          class="modal-imig"
+          src="./images/rent-pop-up-img@1x.png"
+          srcset=""
+          alt="yaht"
+          width="287"
+          height="149"
+        />
+      </picture>
+    </div>
+
+    <div class="modal-elips"></div>
+
+    <div class="modal-content">
+      <h3 class="modal-title">Thank you</h3>
+      <p class="modal-text">
+        Thank you for choosing Yacht Adventures, your booking details have been
+        received and our team will be in touch shortly to confirm your
+        reservation and provide any additional information or assistance you may
+        need.
+      </p>
+    </div>
+  </div>
+</div>
