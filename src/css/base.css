@@ -50,6 +50,8 @@
   --button-light-color: #f6f6ef;
   --text-dark-color: #11131f;
 
+  --ellipse-background-color : #91afba;
+
   --linear-green: #bec7c2;
   --background-grad: var(
     --linear-green,
