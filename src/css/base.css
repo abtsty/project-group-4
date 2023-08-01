@@ -46,14 +46,35 @@
   --accent-color: linear-gradient(107deg, #bec7c2 0%, #a1b5ba 100%);
   --button-lightgreen-color: rgba(147, 171, 174, 1);
   --button-lightgreen-hover: rgba(136, 179, 185, 1);
-}
 
+  --button-light-color: #f6f6ef;
+  --text-dark-color: #11131f;
+
+  --ellipse-background-color : #91afba;
+
+  --linear-green: #bec7c2;
+  --background-grad: var(
+    --linear-green,
+    linear-gradient(107deg, #bec7c2 0%, #a1b5ba 100%)
+  );
+}
+html,
 body {
   font-family: 'DM Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
   color: var(--main-font-color);
   background-color: var(--main-background-color);
+  height: 100%;
+}
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+main {
+  flex-grow: 1;
 }
 
 .visually-hidden {
@@ -82,7 +103,7 @@ body {
   padding-left: 20px;
   padding-right: 20px;
 
-  /* outline: 2px solid red;
+  /*outline: 2px solid red;
     outline-offset: -2px; */
 }
 

@@ -1,0 +1,337 @@
+/**
+  |============================
+  | Yachts section
+  |============================
+*/
+
+.yachts {
+  background-image: url(../img/yachts/background-waves.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #11131f;
+}
+
+.yachts-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 80px;
+  max-width: 335px;
+  gap: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .yachts-header {
+    max-width: 640px;
+    gap: 64px;
+    margin-bottom: 100px;
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .yachts-header {
+    display: inline-flex;
+    max-width: 882px;
+    gap: 64px;
+    margin-bottom: 164px;
+    padding-left: 199px;
+    padding-right: 199px;
+  }
+}
+
+.slider {
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media (min-width: 768px) {
+  .slider {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+.text-container {
+  display: flex;
+  min-width: 310px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .text-container {
+    min-width: 641px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .text-container {
+    min-width: 882px;
+  }
+}
+
+.yachts-text {
+  color: #f6f5ef;
+  font-family: DM Sans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%;
+  letter-spacing: -1.62px;
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .yachts-text {
+    font-size: 70px;
+    letter-spacing: -3.15px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .yachts-text {
+    font-size: 100px;
+    letter-spacing: -4.5px;
+  }
+}
+
+.yacht-button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 153px;
+  height: 48px;
+  color: #f6f5ef;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+  letter-spacing: -0.63px;
+  background-color: #11131f;
+  border-radius: 60px;
+
+  border: #f6f5ef 1px solid;
+  margin-right: auto;
+  justify-content: center;
+}
+
+.button-text {
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+  letter-spacing: -0.63px;
+  color: #f6f5ef;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .button-text {
+    letter-spacing: -0.81px;
+    font-size: 18px;
+  }
+}
+
+.yachts-list {
+  display: flex;
+
+  flex-direction: row;
+  gap: 16px;
+}
+
+.yacht {
+  background-color: #1f212d;
+  border-radius: 24px;
+  align-items: center;
+  padding-left: 16px;
+  padding-bottom: 32px;
+  padding-right: 16px;
+  padding-top: 16px;
+  width: 335px;
+  height: 469px;
+}
+
+@media (min-width: 768px) {
+  .yacht {
+    min-width: 354px;
+    height: 508px;
+  }
+}
+
+.picture {
+  display: flex;
+  justify-content: center;
+}
+
+.name-type {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name {
+  color: #f6f5ef;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: -0.72px;
+  text-transform: uppercase;
+  padding-left: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+@media (min-width: 768px) {
+  .name {
+    padding-left: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}
+
+.yacht-type {
+  color: #f6f5ef;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 118%;
+  letter-spacing: 0.36px;
+  text-transform: uppercase;
+  opacity: 0.5;
+  padding-right: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+@media (min-width: 768px) {
+  .yacht-type {
+    padding-left: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}
+
+.charact {
+  display: flex;
+
+  justify-content: space-between;
+
+  flex-direction: row;
+  gap: 32px;
+}
+
+.charact1 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 24px;
+  padding-bottom: 24px;
+  gap: 6px;
+}
+
+@media (min-width: 768px) {
+  .charact1 {
+    padding-left: 32px;
+    padding-bottom: 32px;
+  }
+}
+
+.charact2 {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 32px;
+  gap: 6px;
+
+  margin-right: auto;
+
+}
+
+.pharagraf {
+  color: #f6f5ef;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 118%;
+  letter-spacing: 0.42px;
+}
+
+.slider-arrows {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 24px;
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .slider-arrows {
+    display: flex;
+    gap: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 32px;
+  }
+}
+
+.arrow-button {
+  display: flex;
+  padding: 14px 16px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 60px;
+  border: #f6f5ef 1px solid;
+}
+
+/* .swiper {
+
+.swiper-button-next,
+.swiper-button-prev {
+  height: 36px;
+  width: 46px;
+  border: #f6f5ef 1px solid;
+  border-radius: 60px;
+  background-color: transparent;
+
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+/* }
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  display: none;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  transform: translateY(220px);
+  margin-left: 95px;
+  margin-right: 95px;
+}
+.swiper-backface-hidden .swiper-slide {
+  /* background-color: rgb(231, 130, 130); */
+/* }
+.swiper-button-next svg,
+.swiper-button-prev svg {
+  width: 18px;
+  height: 8px;
+} */
+
+
+  
+  /**
+
+    |============================
+    | End of Yachts section
+    |============================
+  */
