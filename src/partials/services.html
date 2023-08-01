@@ -1,36 +1,74 @@
 <section class="services-section">
     <div class="services-container container">
+        <h2 class="visually-hidden">Our services</h2>
         <ul class="services-list">
             <li class="services-item diving">
-                <img class="services-img"
-                src="../img/services/services-img-1@1x.png" 
-                srcset="
-                ../img/services/services-img-1@1x.png 1x,
-                ../img/services/services-img-1@2x.png 2x
-                "
-                alt="Diving">
+                <picture>
+                    <source 
+                    srcset="
+                    ./img/services/services-img-1@1x.png 1x ,
+                    ./img/services/services-img-1@1x.png 2x"
+                    media="(min-width: 1280px)"
+                    />
+                    <source 
+                    srcset="
+                    ./img/services/services-tablet-img-1@1x.png 1x, 
+                    ./img/services/services-tablet-img-1@1x.png 2x" 
+                    media="(min-width: 768px)" 
+                    />
+                    <source 
+                    srcset="
+                    ./img/services/services-mobile-img-1@1x.png 1x, 
+                    ./img/services/services-mobile-img-1@1x.png 2x" 
+                    media="(min-width: 320px)" 
+                    />
+                    <img class="services-img" src="./img/services/services-img-1@1x.png" alt="Diving" width="712px">
+                </picture>
                 <button class="services-btn">Diving</button>
             </li>
             <li class="services-item fishing">
-                <img class="services-img"
-                src="../img/services/services-img-2@1x.png" 
-                srcset="
-                ../img/services/services-img-2@1x.png 1x,
-                ../img/services/services-img-2@2x.png 2x
-                "
-                alt="Fishing">
+                <picture>
+                    <source srcset="
+                    ./img/services/services-img-2@1x.png 1x ,
+                    ./img/services/services-img-2@1x.png 2x" 
+                    media="(min-width: 1280px)" 
+                    />
+                    <source srcset="
+                    ./img/services/services-tablet-img-2@1x.png 1x, 
+                    ./img/services/services-tablet-img-2@1x.png 2x" 
+                    media="(min-width: 768px)" 
+                    />
+                    <source srcset="
+                    ./img/services/services-mobile-img-2@1x.png 1x, 
+                    ./img/services/services-mobile-img-2@1x.png 2x" 
+                    media="(min-width: 320px)" 
+                    />
+                    <img class="services-img" src="./img/services/services-img-2@1x.png" alt="Diving" width="440px">
+                </picture>
                 <button class="services-btn">Fishing</button>
             </li>
             <li class="services-item sunbathing">
-                <img class="services-img"
-                src="../img/services/services-img-3@1x.png" 
-                srcset="
-                ../img/services/services-img-3@1x.png 1x,
-                ../img/services/services-img-3@2x.png 2x
-                "
-                alt="Sunbathing">
-                <button class="services-btn">Sunbathing</button>
+                <picture>
+                    <source srcset="
+                    ./img/services/services-img-3@1x.png 1x ,
+                    ./img/services/services-img-3@1x.png 2x" 
+                    media="(min-width: 1280px)" 
+                    />
+                    <source srcset="
+                    ./img/services/services-tablet-img-2@1x.png 1x, 
+                    ./img/services/services-tablet-img-3@1x.png 2x" 
+                    media="(min-width: 768px)" 
+                    />
+                    <source srcset="
+                    ./img/services/services-mobile-img-3@1x.png 1x, 
+                    ./img/services/services-mobile-img-3@1x.png 2x" 
+                    media="(min-width: 320px)" 
+                    />
+                    <img class="services-img" src="./img/services/services-img-3@1x.png" alt="Diving" width="436px">
+                </picture>
+                <button class="services-btn sunbathing-btn">Sunbathing</button>
             </li>
         </ul>
+        <div class="ellipse-section-rent-7271"></div>
     </div>
 </section>

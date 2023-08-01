@@ -116,10 +116,12 @@
   letter-spacing: -0.63px;
   background-color: #11131f;
   border-radius: 60px;
+
   border: #f6f5ef 1px solid;
   margin-right: auto;
   justify-content: center;
 }
+
 .button-text {
   font-family: DM Sans;
   font-size: 14px;
@@ -140,6 +142,7 @@
 
 .yachts-list {
   display: flex;
+
   flex-direction: row;
   gap: 16px;
 }
@@ -221,7 +224,9 @@
 
 .charact {
   display: flex;
+
   justify-content: space-between;
+
   flex-direction: row;
   gap: 32px;
 }
@@ -246,7 +251,9 @@
   flex-direction: column;
   padding-bottom: 32px;
   gap: 6px;
+
   margin-right: auto;
+
 }
 
 .pharagraf {
@@ -289,13 +296,7 @@
 }
 
 /* .swiper {
-  width: 320px;
-  height: 600px;
-  background-color: transparent;
-  margin-bottom: 17px;
-}
-.swiper-slide {
-}
+
 .swiper-button-next,
 .swiper-button-prev {
   height: 36px;
@@ -303,6 +304,7 @@
   border: #f6f5ef 1px solid;
   border-radius: 60px;
   background-color: transparent;
+
   /* display: flex;
   justify-content: center;
   align-items: center; */
@@ -330,8 +332,8 @@
 
   
   /**
+
     |============================
     | End of Yachts section
     |============================
   */
-  
