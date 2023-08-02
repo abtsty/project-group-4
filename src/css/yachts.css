@@ -8,10 +8,13 @@
   position: relative;
   margin-bottom: 250px;
   padding-left: 10px;
+<<<<<<< Updated upstream
   min-width: 320px;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url(../img/yachts/background-waves.png);
+=======
+>>>>>>> Stashed changes
 }
 
 @media only screen and (min-width: 375px) {
@@ -80,8 +83,6 @@ title {
   margin-bottom: 80px;
   max-width: 335px;
   gap: 40px;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 @media (min-width: 768px) and (max-width: 1279px) {
@@ -89,8 +90,7 @@ title {
     max-width: 640px;
     gap: 64px;
     margin-bottom: 100px;
-    padding-left: 64px;
-    padding-right: 64px;
+    padding-left: 25px;
   }
 }
 
@@ -100,28 +100,17 @@ title {
     max-width: 882px;
     gap: 64px;
     margin-bottom: 164px;
-    padding-left: 199px;
-    padding-right: 199px;
+    padding-left: 75px;
   }
 }
 
-.slider {
-  display: flex;
-  padding-left: 20px;
-  padding-right: 20px;
-}
 
-@media (min-width: 768px) {
-  .slider {
-    padding-left: 32px;
-    padding-right: 32px;
-  }
-}
 
 .butcont {
   display: flex;
   margin-top: 32px;
   gap: 16px;
+  
 }
 
 .text-container {
@@ -216,22 +205,17 @@ title {
 
 .yachts-list {
   display: flex;
-
   flex-direction: row;
   gap: 16px;
 }
 
 .yacht {
-  background-color: #1f212d;
-  border-radius: 24px;
-  align-items: center;
-  padding-left: 16px;
-  padding-bottom: 32px;
-  padding-right: 16px;
-  padding-top: 16px;
+  max-width: 300px;
   height: 469px;
-  color: #f6f5ef;
   flex-shrink: 0;
+  background: #1f212d;
+  border-radius: 30px;
+  color: #f6f5ef;
 }
 
 @media only screen and (min-width: 375px) {
@@ -240,25 +224,36 @@ title {
   }
 }
 
+<<<<<<< Updated upstream
 
 @media (min-width: 768px) {
+=======
+@media only screen and (min-width: 768px) {
+>>>>>>> Stashed changes
   .yacht {
-    min-width: 344px;
-    height: 508px;
+    max-width: 344px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .yacht {
-    min-width: 354px;
+    max-width: 354px;
   }
 }
 
+<<<<<<< Updated upstream
 
 .picture {
   display: flex;
   justify-content: center;
+=======
+.foto-yaht {
+  transform: translateY(10px);
+  margin: 0 auto;
+>>>>>>> Stashed changes
 }
+
+
 
 @media only screen and (min-width: 1280px) {
   .picture {
@@ -271,17 +266,20 @@ title {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 24px;
 }
 
 .name {
   color: #f6f5ef;
-  font-family: DM Sans;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
-  line-height: 120%;
+  line-height: 120%; /* 19.2px */
   letter-spacing: -0.72px;
   text-transform: uppercase;
+<<<<<<< Updated upstream
   padding-left: 24px;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -295,48 +293,32 @@ title {
     padding-top: 32px;
     padding-bottom: 32px;
   }
+=======
+>>>>>>> Stashed changes
 }
 
 .yacht-type {
-  color: #f6f5ef;
-  font-family: DM Sans;
+  color: #F6F5EF;
   font-size: 12px;
+  font-family: DM Sans;
   font-style: normal;
   font-weight: 400;
-  line-height: 118%;
+  line-height: 118%; /* 14.16px */
   letter-spacing: 0.36px;
   text-transform: uppercase;
   opacity: 0.5;
-  padding-right: 24px;
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
-
-@media (min-width: 768px) {
-  .yacht-type {
-    padding-left: 32px;
-    padding-top: 32px;
-    padding-bottom: 32px;
-  }
 }
 
 .charact {
   display: flex;
-
-  justify-content: space-between;
-
-  flex-direction: row;
   gap: 32px;
+  align-items: center;
+  margin-left: 24px;
+  margin-top: 24px;
 }
 
-.charact1 {
-  display: flex;
-  flex-direction: column;
-  padding-left: 24px;
-  padding-bottom: 24px;
-  gap: 6px;
-}
 
+<<<<<<< Updated upstream
 
 @media (min-width: 768px) {
   .charact1 {
@@ -354,6 +336,8 @@ title {
   margin-right: auto;
 
 }
+=======
+>>>>>>> Stashed changes
 
 .pharagraf {
   color: #f6f5ef;
@@ -412,18 +396,28 @@ title {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 32px;
-  gap: 16px;
 }
 
 
 
 .swiper {
-  width: 1094px;
-  height: 508px;
-  background-color: transparent;
-  right: 0;
-  margin: 0;
+    width: 350px;
+    height: 508px;
+    background-color: transparent;
+    right: 0;
+    margin: 0;
+  }
+
+@media only screen and (min-width: 768px) {
+  .swiper {
+    width: 700px;
+  }
+  }
+
+@media only screen and (min-width: 1280px) {
+.swiper {
+  width: 1050px;
+}
 }
 
 .swiper-backface-hidden .swiper-slide {
