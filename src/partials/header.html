@@ -1,33 +1,58 @@
 <header class="page-header">
-    <div class="container header-container">
-        <a class="header-logo" href="">
-            <img src="./img/logo.svg" alt="Yacht Adventures" width="23" height="23" title="Site Yacht Adventures">
-            <span class="header-logo-name">Yacht Adventures</span>
-            
-        </a>
-    
-    
+  <div class="container header-container">
+    <a class="header-logo" href="">
+      <picture>
+        <source srcset="./img/logo-mob.svg" media="(max-width=767px)" />
+        <source srcset="./img/logo.svg" media="(min-width=768px)" />
 
-        <nav class="navigation">
-            
-            <ul class="navigation-list">    
-                <li class="navigation-item">
-                    <a class="navigation-link" href="#About">About</a>
+        <img
+          src="./img/logo-img.png"
+          alt="Yacht Adventures"
+          width="18"
+          height="18"
+          title="Site Yacht Adventures"
+        />
+      </picture>
 
-                </li>
-                <li class="navigation-item">
-                    <a class="navigation-link" href="#Yachts">Yachts</a>
+      <span class="header-logo-name">Yacht Adventures</span>
+    </a>
 
-                </li>
-                <li class="navigation-item">
-                    <a class="navigation-link" href="#Reviews">Reviews</a>
-
-                </li>
-            </ul>
-            
-
-        </nav>
-   
+    <nav class="navigation">
+      <ul class="navigation-list">
+        <li class="navigation-item">
+          <a class="navigation-link" href="#About">About</a>
+        </li>
+        <li class="navigation-item">
+          <a class="navigation-link" href="#Yachts">Yachts</a>
+        </li>
+        <li class="navigation-item">
+          <a class="navigation-link" href="#Reviews">Reviews</a>
+        </li>
+      </ul>
+    </nav>
+    <button type="button" class="open-menu-btn">
+      <svg width="24" height="24">
+        <use href="../img/icons.svg#menu-icon"></use>
+      </svg>
+    </button>
+  </div>
+  
+  <div class="menu-data-mobile is-hidden" data-menu>
+    <div class="menu-cont">
+      <button type="button" class="btn-menu-close" data-menu-close>X</button>
+      <nav class="navigation">
+        <ul class="navigation-list">
+          <li class="navigation-item">
+            <a class="navigation-link" href="#About">About</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#Yachts">Yachts</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#Reviews">Reviews</a>
+          </li>
+        </ul>
+      </nav>
     </div>
-
+  </div>
 </header>
