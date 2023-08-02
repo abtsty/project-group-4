@@ -6,12 +6,11 @@
 
 .yachts {
   background-image: url(../img/yachts/background-waves.png);
+  position: relative;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #11131f;
+  /* background-color: #11131f; */
 }
-
-
 
 .yachts-header {
   display: flex;
@@ -253,7 +252,6 @@
   gap: 6px;
 
   margin-right: auto;
-
 }
 
 .pharagraf {
@@ -329,9 +327,7 @@
   height: 8px;
 } */
 
-
-  
-  /**
+/**
 
     |============================
     | End of Yachts section
