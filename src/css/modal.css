@@ -19,7 +19,7 @@
 
 .modal {
   padding: 40px 24px;
-  width: 335px;
+  min-width: 335px;
   height: 396px;
   border-radius: 20px;
   background-color: #1f212d;
