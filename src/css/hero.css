@@ -120,6 +120,8 @@
 .hero-explore-btn:hover,
 .hero-explore-btn:focus {
   background: var(--secondary-background-color);
+  color: #93abae;
+  border: 1px solid #93abae;
   transition-duration: 300ms;
   transition-timing-function: ease-in-out;
 }
@@ -336,18 +338,56 @@
 
 /* ===========Ellipse===== */
 
-/* .ellipse-hero {
+.ellipse-hero::before {
   position: absolute;
-
-  bottom: 112px;
-  right: 183px;
-  top: 0;
-  right: 0;
-  z-index: 0;
+  right: 193px;
+  top: 70px;
+  z-index: -1;
+  content: '';
+  display: block;
 
   width: 279px;
   height: 279px;
-  transform: rotate(-45deg);
+  transform: rotate(-44.916deg);
+  flex-shrink: 0;
+  border-radius: 279px;
+  opacity: 0.8999999761581421;
+  background: var(--ellipse-background-color);
+  filter: blur(100px);
+}
+
+@media screen and (min-width: 768px) {
+  .ellipse-hero::before {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .ellipse-hero::before {
+    display: block;
+
+    top: 184px;
+    left: 190px;
+    border-radius: 316px;
+    opacity: 0.30000001192092896;
+    width: 316px;
+    height: 316px;
+    opacity: 0.3;
+  }
+}
+
+.ellipse-hero::after {
+  position: absolute;
+  /* right: 179px; */
+  left: -124px;
+  top: 33px;
+  z-index: -1;
+  content: '';
+  display: block;
+
+  width: 279px;
+  height: 279px;
+  transform: rotate(-44.916deg);
   flex-shrink: 0;
   border-radius: 279px;
   opacity: 0.8999999761581421;
@@ -356,24 +396,54 @@
 }
 
 @media screen and (min-width: 768px) {
-  .ellipse-hero {
+  .ellipse-hero::after {
     width: 414px;
     height: 414px;
-    transform: rotate(-44.094deg);
-    border-radius: 414px;
-    bottom: 68px;
-    right: 510px;
+    top: 160px;
+    left: -220px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .ellipse-hero {
-    width: 316px;
-    height: 316px;
+  .hero-wrapper::after {
+    top: 160px;
+    left: -250px;
   }
-} */
+}
 
-.ellipse-hero {
+.ellipse-desk {
+  display: none;
+}
+
+@media screen and (min-width: 1280px) {
+  .ellipse-desk::after {
+    position: absolute;
+    width: 414px;
+    height: 414px;
+    transform: rotate(-45.079deg);
+    flex-shrink: 0;
+    top: 221px;
+    left: 60px;
+
+    border-radius: 414px;
+    opacity: 0.8999999761581421;
+    background: #939cac;
+    filter: blur(100px);
+    z-index: -1;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .ellipse-desk::after {
+    top: 130px;
+    left: -243px;
+
+    width: 414px;
+    height: 414px;
+  }
+}
+
+/* .ellipse-hero {
   position: absolute;
   width: 414px;
   height: 414px;
@@ -387,4 +457,6 @@
   background: var(--ellipse-background-color);
   filter: blur(100px);
   z-index: -1;
-}
+} */
+
+/* ======================================= */
