@@ -1,4 +1,4 @@
-.reviews-section {
+/* .reviews-section {
   margin-top: 80px;
 }
 @media only screen and (min-width: 768px) {
@@ -190,7 +190,7 @@
 }
 /* buller*/
 
-.reviews-buller {
+/* .reviews-buller {
   display: flex;
   justify-content: center;
 
@@ -221,4 +221,4 @@
 .reviews-buller-item {
   flex-basis: calc((100% - 20px) / 3);
 }
-
+  */
