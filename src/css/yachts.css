@@ -67,6 +67,7 @@ title {
 
 .yachts-header {
   display: flex;
+  /* position: relative; */
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -120,6 +121,7 @@ title {
   font-weight: 500;
   line-height: 110%;
   letter-spacing: -1.62px;
+  z-index: 5;
 }
 
 @media (min-width: 768px) and (max-width: 1279px) {
@@ -149,11 +151,12 @@ title {
   font-weight: 700;
   line-height: 110%;
   letter-spacing: -0.63px;
-  background-color: #11131f;
+  background-color: transparent;
   border-radius: 60px;
   border: #f6f5ef 1px solid;
   margin-right: auto;
   justify-content: center;
+  z-index: 5;
 }
 
 .yacht-button:hover,
@@ -360,6 +363,61 @@ title {
 
 .image-slider .swiper-slide {
   width: auto;
+}
+
+.ellipse7268 {
+  position: absolute;
+  transform: rotate(-45deg);
+  flex-shrink: 0;
+  opacity: 0.6;
+  filter: blur(100px);
+  background: var(--ellipse-background-color);
+  width: 255px;
+  height: 255px;
+  top: -54px;
+  left: -60px;
+  z-index: 4;
+}
+
+@media only screen and (min-width: 768px) {
+  .ellipse7268 {
+    width: 399px;
+    height: 399px;
+    top: -56px;
+    left: 33px;
+  }
+
+  .ellipse7270 {
+    position: absolute;
+    transform: rotate(-45deg);
+    flex-shrink: 0;
+    opacity: 0.3;
+    filter: blur(100px);
+    background: #a6a9b2;
+    width: 304px;
+    height: 304px;
+    top: -24px;
+    right: 16px;
+    z-index: 3;
+    border-radius: 304px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .ellipse7268 {
+    width: 414px;
+    height: 414px;
+    top: -70px;
+    left: 190px;
+    border-radius: 414px;
+  }
+
+  .ellipse7270 {
+    width: 316px;
+    height: 316px;
+    top: -60px;
+    right: 135px;
+  }
 }
 
 /**
