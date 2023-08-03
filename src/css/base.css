@@ -94,7 +94,7 @@ main {
 /* Mobile base styles */
 
 .container {
-  min-width: 320px;
+  /* min-width: 320px; */
   max-width: 375px;
 
   margin-left: auto;
