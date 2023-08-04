@@ -79,7 +79,7 @@
 
 .header-logo-name {
   color: var(--main-font-color);
-  font-size: 10px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: 118%;
@@ -88,7 +88,7 @@
 }
 @media screen and (min-width: 768px) {
   .header-logo-name {
-    font-size: 13px;
+    /* font-size: 23px; */
   }
 }
 
@@ -96,6 +96,7 @@
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
+  text-align: center;
   gap: 8px;
 }
 
