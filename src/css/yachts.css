@@ -6,8 +6,9 @@
 
 .yachts {
   /* position: relative; */
-  padding-left: 10px;
+  /* padding-left: 10px; */
   min-width: 320px;
+  margin: 0;
 }
 
 @media only screen and (min-width: 375px) {
@@ -42,7 +43,7 @@ title {
 
 .box-yahts {
   position: relative;
-  max-width: 300px;
+  width: 300px;
 }
 
 @media only screen and (min-width: 375px) {
@@ -189,7 +190,7 @@ title {
 }
 
 .yacht {
-  max-width: 300px;
+  width: 300px;
   height: 469px;
   flex-shrink: 0;
   background: #1f212d;
@@ -199,42 +200,47 @@ title {
 
 @media only screen and (min-width: 375px) {
   .yacht {
-    max-width: 335px;
+    width: 335px;
   }
 }
 
 @media only screen and (min-width: 768px) {
   .yacht {
-    max-width: 354px;
+    width: 344px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .yacht {
-    max-width: 354px;
+    width: 354px;
   }
 }
 
 .foto-yaht {
-  transform: translateY(10px);
-  margin-left: 6.5px;
-  margin-right: 6.5px;
-  margin-top: 6.5px;
+  transform: translateY(18px);
+  margin-left: 18px;
+  margin-right: 18px;
+  margin-top: 18px;
+  max-width: 264px;
 }
-
+@media only screen and (min-width: 375px) {
+  .foto-yaht {
+    max-width: 299px;
+  }
+}
 @media only screen and (min-width: 768px) {
   .foto-yaht {
-    margin-left: 11px;
-    margin-right: 11px;
-    margin-top: 11px;
+    transform: translateY(16px);
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 16px;
+    max-width: 312px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .foto-yaht {
-    margin-left: 16px;
-    margin-right: 16px;
-    margin-top: 16px;
+    max-width: 322px;
   }
 }
 
@@ -290,15 +296,22 @@ title {
 .button-prev {
   position: absolute;
   bottom: -24px;
-  left: 105px;
+  left: 95px;
 }
 
 .button-next {
   position: absolute;
   bottom: -24px;
-  right: 105px;
+  right: 95px;
 }
-
+@media only screen and (min-width: 375px) {
+  .button-prev {
+    left: 105px;
+  }
+  .button-next {
+    right: 105px;
+  }
+}
 @media only screen and (min-width: 768px) {
   .button-prev {
     left: 294px;
@@ -338,7 +351,7 @@ title {
   width: 300px;
   height: 508px;
   background-color: transparent;
-  right: 0;
+  right: 20px;
   margin: 0;
 }
 @media only screen and (min-width: 375px) {
@@ -349,6 +362,7 @@ title {
 
 @media only screen and (min-width: 768px) {
   .swiper {
+    right: 32px;
     width: 704px;
   }
 }
