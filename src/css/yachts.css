@@ -5,8 +5,7 @@
 */
 
 .yachts {
-  position: relative;
-  margin-bottom: 250px;
+  /* position: relative; */
   padding-left: 10px;
   min-width: 320px;
 }
@@ -24,7 +23,7 @@
     height: 1773px;
     background-image: url(../img/yachts/background-waves.svg);
     background-repeat: no-repeat;
-    top: 0px;
+    top: 1848px;
     left: 0px;
     right: 0px;
     bottom: 0px;
@@ -43,7 +42,7 @@ title {
 
 .box-yahts {
   position: relative;
-  min-width: 320px;
+  max-width: 300px;
 }
 
 @media only screen and (min-width: 375px) {
@@ -67,7 +66,6 @@ title {
 
 .yachts-header {
   display: flex;
-  /* position: relative; */
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -121,7 +119,6 @@ title {
   font-weight: 500;
   line-height: 110%;
   letter-spacing: -1.62px;
-  z-index: 5;
 }
 
 @media (min-width: 768px) and (max-width: 1279px) {
@@ -151,12 +148,11 @@ title {
   font-weight: 700;
   line-height: 110%;
   letter-spacing: -0.63px;
-  background-color: transparent;
+  background-color: #11131f;
   border-radius: 60px;
   border: #f6f5ef 1px solid;
   margin-right: auto;
   justify-content: center;
-  z-index: 5;
 }
 
 .yacht-button:hover,
@@ -187,13 +183,13 @@ title {
 }
 
 .yachts-list {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
-  gap: 16px;
+  gap: 16px; */
 }
 
 .yacht {
-  min-width: 335px;
+  max-width: 300px;
   height: 469px;
   flex-shrink: 0;
   background: #1f212d;
@@ -203,19 +199,19 @@ title {
 
 @media only screen and (min-width: 375px) {
   .yacht {
-    width: 335px;
+    max-width: 335px;
   }
 }
 
 @media only screen and (min-width: 768px) {
   .yacht {
-    width: 344px;
+    max-width: 354px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .yacht {
-    width: 354px;
+    max-width: 354px;
   }
 }
 
@@ -294,32 +290,32 @@ title {
 .button-prev {
   position: absolute;
   bottom: -24px;
-  left: 135px;
+  left: 105px;
 }
 
 .button-next {
   position: absolute;
   bottom: -24px;
-  right: 135px;
+  right: 105px;
 }
 
 @media only screen and (min-width: 768px) {
   .button-prev {
-    left: 330px;
+    left: 294px;
   }
   .button-next {
-    right: 330px;
+    right: 294px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .button-prev {
     top: 845px;
-    left: -30px;
+    left: -61px;
   }
   .button-next {
     top: 845px;
-    right: -90px;
+    right: -61px;
   }
 }
 
@@ -339,22 +335,27 @@ title {
 }
 
 .swiper {
-  width: 350px;
+  width: 300px;
   height: 508px;
   background-color: transparent;
   right: 0;
   margin: 0;
 }
+@media only screen and (min-width: 375px) {
+  .swiper {
+    width: 335px;
+  }
+}
 
 @media only screen and (min-width: 768px) {
   .swiper {
-    width: 700px;
+    width: 704px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .swiper {
-    width: 1100px;
+    width: 1094px;
   }
 }
 
